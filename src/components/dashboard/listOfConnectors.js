@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import Button from "../../aonComponents/Button";
 import AonContext from "../../context/aonContext";
 import { useHistory } from "react-router-dom";
-// import Connector from "../components/newConnector/connector";
+import Connector from "../newConnector/connector";
 
 function ListOfConnectors({ title }) {
   const {
@@ -87,26 +87,26 @@ function ListOfConnectors({ title }) {
               <h3 className='selected-item'>{title}</h3>
             </div>
             <div className='col-md-6'>
-              {/* <Button
+              <Button
                 type='button'
                 classes='float-right no-right-margin'
                 handler={makeStepperVisible}
               >
                 Create connector
-              </Button> */}
-              <Button
+              </Button>
+              {/* <Button
                 type='button'
                 classes='float-right no-right-margin'
                 handler={createConnector}
               >
                 Create connector
-              </Button>
+              </Button> */}
             </div>
           </div>
           <div className='row'>{listOfConnectors}</div>
         </React.Fragment>
       )}
-      {/* {isConnectedStarted && <Connector {...{ backToHomePage }} />} */}
+      {isConnectedStarted && <Connector {...{ backToHomePage }} />}
     </div>
   );
 }

@@ -19,6 +19,7 @@ $content-bg-color: #ebf7ff;
   background-color: white;
   height: calc(100vh - 2rem);
   border-radius: 10px;
+  overflow-y: auto;
   @extend .shadow;
 }
 

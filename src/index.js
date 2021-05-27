@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <AonStateProvider>
       <Root />
-      <App />
+      {/* <App /> */}
     </AonStateProvider>
     ,
   </React.StrictMode>,

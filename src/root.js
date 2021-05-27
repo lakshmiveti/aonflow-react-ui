@@ -11,10 +11,10 @@ function Root() {
         <Route exact path='/'>
           <Dashboard />
         </Route>
-        <Route path='/newconnector'>
+        {/* <Route path='/newconnector'>
           <p>i am from new connector</p>
         </Route>
-        {/* <Route path='/list'>
+        <Route path='/list'>
           <MainContent />
         </Route> */}
       </Switch>

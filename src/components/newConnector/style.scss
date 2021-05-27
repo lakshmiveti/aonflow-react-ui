@@ -1,0 +1,118 @@
+.form-group {
+  margin: 0 !important;
+}
+.form-group label {
+  color: #004f84 !important;
+  font-size: 12px !important;
+  font-weight: normal;
+}
+
+.form-group input,
+.form-group textarea {
+  border-radius: 20px !important;
+  border: 1px solid #004f84 !important;
+  resize: none !important;
+  background-color: #ffffff;
+  font-size: 12px;
+}
+
+.form-group input,
+.form-group {
+  height: 30px;
+}
+.float-right {
+  border-radius: 15px !important;
+  font-size: 12px !important;
+  margin-right: 20px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  margin-top: 7px !important;
+  font-weight: normal !important;
+}
+.full-width {
+  width: 100%;
+  margin-top: 0 !important;
+}
+.auth-type {
+  border-radius: 20px !important;
+  border: 1px solid #004f84 !important;
+  resize: none !important;
+  background-color: #ffffff;
+  option {
+    background-color: #ffffff;
+    color: #004f84;
+  }
+}
+.p-3 {
+  padding: 5px !important;
+}
+.stepper-main {
+  width: 50% !important;
+  margin: auto !important;
+}
+.modal-confirm-main {
+  max-width: 300px !important;
+  max-height: 120px !important;
+}
+.modal-confirm-body {
+  text-align: center;
+  margin-top: 10px !important;
+}
+.delete-img {
+  cursor: pointer;
+}
+select {
+  background-color: #ffffff !important;
+}
+.error-msg {
+  margin-bottom: 16px;
+}
+.error-msg label,
+.error-msg span.error-message {
+  color: #dc3545 !important;
+}
+.error-msg input {
+  border: 1px solid #dc3545 !important;
+}
+.btn:disabled {
+  background-color: #c4c4c4 !important;
+  color: #ffffff !important;
+}
+
+.back-page {
+  display: flex;
+  margin-bottom: 5px;
+  .back-arrow {
+    cursor: pointer;
+  }
+}
+
+.background-card-view {
+  border-radius: 20px;
+  overflow-y: auto !important;
+  height: calc(100vh - 6rem);
+}
+.modal-dialog {
+  height: calc(100vh - 12rem);
+}
+.modal-content {
+  height: 100%;
+  overflow: auto;
+}
+.align-center {
+  margin: auto !important;
+}
+.loader-head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin: auto;
+}
+.connector-test-content {
+  overflow: auto !important;
+}
+.modal-body {
+  overflow: hidden;
+}
