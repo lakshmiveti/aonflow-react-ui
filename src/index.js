@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import AonStateProvider from "./context/aonStateProvider";
+import Root from "./root";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
+import "./index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AonStateProvider>
+      <Root />
+      <App />
+    </AonStateProvider>
+    ,
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

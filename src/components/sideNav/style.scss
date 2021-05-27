@@ -1,0 +1,56 @@
+$base-color: #004f84;
+$nav-color: #a1d9ff;
+.navigation {
+  margin-top: 3rem;
+  ul {
+    list-style: none;
+    padding: 0;
+    color: $nav-color;
+    line-height: 3rem;
+    li {
+      color: $nav-color;
+      font-size: 1.2rem;
+      span svg {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.5rem;
+        path {
+          fill: $nav-color;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    li.active {
+      color: white;
+      span svg path {
+        fill: white;
+      }
+    }
+  }
+}
+
+.logout-and-setting {
+  position: absolute;
+  bottom: 0;
+  ul {
+    list-style: none;
+    padding: 0;
+    color: $nav-color;
+    line-height: 3rem;
+    li {
+      color: $nav-color;
+      font-size: 1.2rem;
+      span svg {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-right: 0.5rem;
+        path {
+          fill: $nav-color;
+        }
+      }
+    }
+  }
+}

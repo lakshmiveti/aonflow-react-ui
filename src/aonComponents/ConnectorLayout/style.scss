@@ -1,0 +1,21 @@
+$base-color: #004f84;
+$content-bg-color: #ebf7ff;
+$button-color: #79c23b;
+
+.logo-section {
+  width: auto;
+}
+
+.module-heading {
+  color: $base-color;
+}
+
+.delete-btn-card {
+  text-align: right;
+
+  img {
+    margin: 1rem;
+    width: 25%;
+    cursor: pointer;
+  }
+}
